@@ -1,0 +1,195 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "criar-evento-no-calendário;criar-evento-com-sucesso",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Criar evento com sucesso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2390352100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estou logado no Moodle",
+            "match": {
+              "location": "features\\support\\steps\\criarEvento.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5788286699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "acesso o Dashboard",
+            "match": {
+              "location": "features\\support\\steps\\criarEvento.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515872799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clico em \"New event\"",
+            "match": {
+              "location": "features\\support\\steps\\criarEvento.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1128230900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "preencho o título do evento",
+            "match": {
+              "location": "features\\support\\steps\\criarEvento.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1069729499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "salvo o evento",
+            "match": {
+              "location": "features\\support\\steps\\criarEvento.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1076136399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "o evento deve aparecer no calendário",
+            "match": {
+              "location": "features\\support\\steps\\criarEvento.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51016499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 739010600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "criar-evento-no-calendário",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Criar evento no calendário",
+    "tags": [],
+    "uri": "features\\criar_evento.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "fazer-login;login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1371636599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estou na página de login do Moodle",
+            "match": {
+              "location": "features\\support\\steps\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2843993300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "preencho usuário \"teacher\" e senha \"moodle25\"",
+            "match": {
+              "location": "features\\support\\steps\\login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 768955799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "devo acessar o dashboard",
+            "match": {
+              "location": "features\\support\\steps\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4155399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 534524300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "fazer-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Fazer login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
